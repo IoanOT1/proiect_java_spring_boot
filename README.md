@@ -28,37 +28,37 @@ Statistici
 Entitati:
 
 Client
-> id
-> firstName
-> lastName
+- id
+- firstName
+- lastName
 
 Signature
-> hash
-> date
+- hash
+- date
 
 Contract (Client, SubscriptionPlan)
-> date
-> billingInterval
-> duration
-> devices
-> digitalSignature
-> client
-> subscriptionPlan
+- date
+- billingInterval
+- duration
+- devices
+- digitalSignature
+- client
+- subscriptionPlan
 
 SubscriptionPlan
-> id
-> name
-> details
-> pricePerYear
+- id
+- name
+- details
+- pricePerYear
 
 Device
-> id
-> name
-> type
-> warranty
+- id
+- name
+- type
+- warranty
 
 Warranty
-> id
-> details
-> duration
-> conditions
+- id
+- details
+- duration
+- conditions
